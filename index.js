@@ -1,4 +1,7 @@
- //const radioBtns = document.querySelector('input[type="radio"]:checked');
+window.Webflow ||= [];
+window.Webflow.push(() => {
+  // check for radio buttons
+  const radioBtns = document.querySelector('input[type="radio"]:checked');
 
   const newToOld = document.getElementById('dateaz');
   const oldToNew = document.getElementById('dateza');
@@ -279,3 +282,4 @@
 
     reader.readAsDataURL(submittedFiles[0]);
   });
+});
