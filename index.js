@@ -1,4 +1,4 @@
- const radioBtns = document.querySelector('input[type="radio"]:checked');
+ //const radioBtns = document.querySelector('input[type="radio"]:checked');
 
   const newToOld = document.getElementById('dateaz');
   const oldToNew = document.getElementById('dateza');
